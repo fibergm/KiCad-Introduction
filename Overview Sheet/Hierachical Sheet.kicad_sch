@@ -1,0 +1,176 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c4e76db4-f3a1-4c60-90f7-619b176429d4")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 101.6 74.93) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1830877c-d871-44a0-8e50-e750272885b8")
+	)
+	(wire
+		(pts
+			(xy 101.6 80.01) (xy 114.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33f2baf-a7bf-41b3-a8ad-987db91cd7c3")
+	)
+	(wire
+		(pts
+			(xy 101.6 69.85) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7aba6c5-2cc5-49a9-b617-c55dc74b3e9d")
+	)
+	(hierarchical_label "1"
+		(shape output)
+		(at 114.3 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "264c5789-cadf-44fa-83f0-f604eb09e600")
+		(property "Netclass" "Digital"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "3"
+		(shape output)
+		(at 114.3 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "264c5789-cadf-44fa-83f0-f604eb09e601")
+		(property "Netclass" "Digital"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "2"
+		(shape output)
+		(at 114.3 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "264c5789-cadf-44fa-83f0-f604eb09e602")
+		(property "Netclass" "Digital"
+			(at 114.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "B"
+		(shape input)
+		(at 101.6 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "279b6aa3-0e96-4b9e-aa82-2f056164fd51")
+		(property "Netclass" "Digital"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "A"
+		(shape input)
+		(at 101.6 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "279b6aa3-0e96-4b9e-aa82-2f056164fd52")
+		(property "Netclass" "Digital"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "C"
+		(shape input)
+		(at 101.6 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "279b6aa3-0e96-4b9e-aa82-2f056164fd53")
+		(property "Netclass" "Digital"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+)

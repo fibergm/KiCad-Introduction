@@ -1,0 +1,9 @@
+Default	True	2.0	3
+Analog	True	2.0	3
+Digital	True	2.0	3
+High Current	True	2.0	3
+High Frequency	True	2.0	3
+High Voltage	True	2.0	3
+Low Current	True	2.0	3
+Medium Current	True	2.0	3
+False	True	False
