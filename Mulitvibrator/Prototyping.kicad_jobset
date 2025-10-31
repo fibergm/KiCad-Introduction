@@ -1,0 +1,154 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "90f6df77-29b6-4e80-9c09-b79bb39595f7",
+      "settings": {
+        "description": "",
+        "disable_aperture_macros": false,
+        "drawing_sheet": "",
+        "include_netlist_attributes": true,
+        "layers": [
+          "F.Cu",
+          "In1.Cu",
+          "In2.Cu",
+          "In3.Cu",
+          "In4.Cu",
+          "In5.Cu",
+          "In6.Cu",
+          "In7.Cu",
+          "In8.Cu",
+          "In9.Cu",
+          "In10.Cu",
+          "In11.Cu",
+          "In12.Cu",
+          "In13.Cu",
+          "In14.Cu",
+          "In15.Cu",
+          "In16.Cu",
+          "In17.Cu",
+          "In18.Cu",
+          "In19.Cu",
+          "In20.Cu",
+          "In21.Cu",
+          "In22.Cu",
+          "In23.Cu",
+          "In24.Cu",
+          "In25.Cu",
+          "In26.Cu",
+          "In27.Cu",
+          "In28.Cu",
+          "In29.Cu",
+          "In30.Cu",
+          "B.Cu",
+          "F.SilkS",
+          "B.SilkS",
+          "F.Mask",
+          "B.Mask",
+          "Edge.Cuts"
+        ],
+        "layers_include_on_all": [],
+        "layers_include_on_all_set": false,
+        "layers_to_include_on_all_layers": [],
+        "output_filename": "",
+        "plot_drawing_sheet": false,
+        "plot_footprint_values": true,
+        "plot_invisible_text": false,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "precision": 5,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": false,
+        "use_protel_file_extension": true,
+        "use_x2_format": true
+      },
+      "type": "pcb_export_gerbers"
+    },
+    {
+      "description": "",
+      "id": "d21db706-bd37-43e9-a461-7da82e3af62c",
+      "settings": {
+        "description": "",
+        "drill_origin": "abs",
+        "excellon.combine_pth_npth": true,
+        "excellon.minimal_header": false,
+        "excellon.mirror_y": false,
+        "excellon.oval_drill_route": false,
+        "format": "gerber",
+        "generate_map": false,
+        "gerber_precision": 5,
+        "map_format": "pdf",
+        "output_dir": "",
+        "units": "mm",
+        "zero_format": "decimal"
+      },
+      "type": "pcb_export_drill"
+    },
+    {
+      "description": "",
+      "id": "503c8537-c186-48f9-9a3e-b10c6c7607aa",
+      "settings": {
+        "board_only": false,
+        "board_outlines_chaining_epsilon": 0.01,
+        "cut_vias_in_body": false,
+        "description": "",
+        "export_board_body": true,
+        "export_components": true,
+        "export_inner_copper": false,
+        "export_pads": false,
+        "export_silkscreen": false,
+        "export_soldermask": false,
+        "export_tracks": false,
+        "export_zones": false,
+        "fill_all_vias": false,
+        "format": "step",
+        "fuse_shapes": false,
+        "include_dnp": true,
+        "include_unspecified": true,
+        "occt_format": 0,
+        "optimize_step": true,
+        "output_filename": "..\\..\\3D Design\\${PROJECTNAME}.step",
+        "overwrite": false,
+        "subst_models": true,
+        "use_drill_origin": false,
+        "use_grid_origin": false,
+        "user_origin.x": 133.223,
+        "user_origin.y": 100.711,
+        "vrml_model_dir": "",
+        "vrml_relative_paths": false
+      },
+      "type": "pcb_export_3d"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "Generate PCB Files",
+      "id": "e97c5ef4-d486-4fa4-9008-76f946c9562a",
+      "only": [
+        "90f6df77-29b6-4e80-9c09-b79bb39595f7",
+        "d21db706-bd37-43e9-a461-7da82e3af62c",
+        "503c8537-c186-48f9-9a3e-b10c6c7607aa",
+        "970fea1e-0fb3-4f1b-8091-87f2fa02fc28"
+      ],
+      "settings": {
+        "output_path": "${PROJECTNAME} Gerber Files"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "Copy Transferfile",
+      "id": "1520d366-2295-4520-a8aa-f623185a88a0",
+      "only": [
+        "5ecf54a0-c9e2-4321-98a6-7986697f01dd",
+        "3119e23e-6c51-49ee-a0d6-eb01616b4460"
+      ],
+      "settings": {
+        "output_path": "C:\\Users\\finnr\\OneDrive\\002 Projekte\\001 Hilfen\\XXX __project_name__\\Electronics\\XXX\\XXXtest2\\Gerber Files\\Manu\\"
+      },
+      "type": "folder"
+    }
+  ]
+}
