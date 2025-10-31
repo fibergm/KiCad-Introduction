@@ -4339,7 +4339,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Finns Constrains \nhttps://github.com/fibergm/KiCad-Default-Project"
+	(gr_text "Finns Constrains \nhttps://github.com/fibergm/Default-Fullstack-Project"
 		(at 61.1 22.1 0)
 		(layer "User.1")
 		(uuid "966f56c8-bc75-4493-a9d4-ddb11beb4cdb")
